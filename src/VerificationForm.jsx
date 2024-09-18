@@ -17,7 +17,7 @@ const VerificationForm = () => {
     e.preventDefault();
     const codeString = code.join("");
     try {
-      const res = await fetch("https://verficationsever.onrender.com", {
+      const res = await fetch("https://verficationsever.onrender.com/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code: codeString }),
