@@ -12,7 +12,9 @@ export default function BasicAlerts() {
             className="w-full h-full object-cover "
           />
         </div>
-        <p className="text-center mb-4 text-3xl uppercase ">Success</p>
+        <p className="text-center mb-4 text-3xl uppercase text-green-400">
+          Success
+        </p>
       </div>
     </div>
   );
